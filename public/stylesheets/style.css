@@ -1,0 +1,43 @@
+body {
+  /* padding: 10px; */
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-color: #36454f; */
+  background-color: #2c2f33;
+
+  color:white;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  margin:10px;
+  margin-bottom: 15px;
+}
+#sheet{
+  border: solid 2px black;
+  background-color: white;
+}
+.round-button{
+  border-radius: 50%;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.round-button:hover{
+  opacity: 80%;
+}
+.red{
+  background-color: red;
+  border: 1px solid crimson;
+}
+.green{
+  background-color: green;
+  border: 1px solid mediumseagreen;
+}
+.blue{
+  background-color: blue;
+  border: 1px solid midnightblue;
+}
+.selected{
+  border: solid 3px white;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+    <div class="flex-container">
+      <div><h1><%= title %></h1></div>
+    </div>
+
+    <div class="flex-container">
+      <div>
+        <canvas id="sheet" width="800" height="500"></canvas>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div>
+        <button class="round-button red selected"onclick="selectColor('red')"></button>
+      </div>
+      <div>
+        <button class="round-button green"onclick="selectColor('green')"></button>
+      </div>
+      <div>
+        <button class="round-button blue"onclick="selectColor('blue')"></button>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div><p>Designed with &#x1F496; by Prajwal</p></div>
+    </div>
+    
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  <script src="/javascripts/draw.js"></script>
+</html>
